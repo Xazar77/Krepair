@@ -1,0 +1,24 @@
+@import "variable/variable";
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+@import "block/title";
+@import "block/button";
+@import "block/header";
+@import "block/promo";
+@import "block/services";
+@import "block/advantages";
+
+
