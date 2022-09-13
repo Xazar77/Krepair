@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krepair</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -175,6 +176,160 @@
               </div>
         </div>
     </section>
-    
+    <section class="reviews">
+        <div class="container">
+            <h2 class="title title_black">Отзывы наших <br><span>клиентов</span>
+            </h2>
+            <div class="reviews__block">
+                <div class="reviews__item">
+                    <div class="reviews__info">
+                        <div class="reviews__name">Анастасия</div>
+                        <div class="reviews__data">Дата: 2022-02-23</div>
+                        <div class="reviews__location"><img src="./icons/location_icon/google_icon.png" alt="Иконка локации"></div>
+                    </div>
+                    <div class="reviews__text">Спасибо большое сервисному центру. Удобный график работы. Можно записаться через социальные сети. Дают гарантию,что самое главное ...
+                    </div>
+                    <div class="reviews__more">
+                        <a href="#" class="reviews__more_link">Читать полностью</a>
+                        <div class="reviews__rating">
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__info">
+                        <div class="reviews__name">Ирек</div>
+                        <div class="reviews__data">Дата: 2022-07-21</div>
+                        <div class="reviews__location"><img src="./icons/location_icon/yandex_icon.png" alt="Иконка локации"></div>
+                    </div>
+                    <div class="reviews__text">Спасибо большое сервисному центру. Удобный график работы. Можно записаться через социальные сети. Дают гарантию,что самое главное ...
+
+                    </div>
+                    <div class="reviews__more">
+                        <a href="#" class="reviews__more_link">Читать полностью</a>
+                        <div class="reviews__rating">
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__info">
+                        <div class="reviews__name">Евгения</div>
+                        <div class="reviews__data">Дата: 2022-05-22</div>
+                        <div class="reviews__location"><img src="./icons/location_icon/google_icon.png" alt="Иконка локации"></div>
+                    </div>
+                    <div class="reviews__text">Спасибо большое сервисному центру. Удобный график работы. Можно записаться через социальные сети. Дают гарантию,что самое главное ...
+
+                    </div>
+                    <div class="reviews__more">
+                        <a href="#" class="reviews__more_link">Читать полностью</a>
+                        <div class="reviews__rating">
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star reviews__star_active"></div>
+                            <div class="reviews__star"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="container">
+            <div class="questions__title">
+                <h2 class="title title_white">У вас остались  <br><span>вопросы?</span></h2>
+                <div class="descr descr_white">Оставьте заявку, мы свяжемся с вами и ответим на них 
+                </div>
+            </div>
+
+            <form action="#" class="questions__form">
+                <div class="form__field">
+                    <div class="form__wrapper">
+                        <div class="form__name">
+                            <label for="name">Ваше имя</label>
+                            <input id="name" name="name" required type="text" placeholder="Ваше имя" >
+                        </div>
+                        <div class="form__email">
+                            <label for="email">E-mail</label>
+                            <input id="email" name="email" required type="email" placeholder="E-mail">
+                        </div>
+                        <div class="form__phone">
+                            <label for="phone">Ваш Телефон</label>
+                            <input id="phone" name="name" required type="phone" placeholder="Телефон*">
+                        </div>
+                    </div>
+                    <div class="form__text">
+                        <label for="text">Введите текст</label>
+                        <textarea name="text" id="text" placeholder="Опишите проблему и добавьте видео неисправности"></textarea>
+                        <a href="#" class="form__text_img">
+                            <img src="./icons/paper_clip.png" alt="Иконка" >
+                        </a>
+                        
+                    </div>
+                </div>
+                <button type="submit" class="btn btn_red questions__form_btn">Оставить заявку</button>
+                <div class="form__checkbox">
+                    <label for="checkbox"></label>
+                    <input type="checkbox" required>
+                    <div class="form__checkbox_text">Нажимая на данную кнопку вы соглашаетесь с <a href="#">политикой конфиденциальности</a></div>
+                    
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.191091108507!2d37.66934696613437!3d55.72043120195547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b2a3340eafb%3A0xa93074dbe6e65ff9!2z0KjQsNGA0LjQutC-0L_QvtC00YjQuNC_0L3QuNC60L7QstGB0LrQsNGPINGD0LsuLCA0INC60L7RgNC_0YPRgSA00JAsINCc0L7RgdC60LLQsCwgMTE1MDg4!5e0!3m2!1sru!2sru!4v1663093681316!5m2!1sru!2sru"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map__block">
+            <img src="./icons/logo_krepair_white.png" alt="Логотип компании" class="map__block_img">
+            <div class="map__block_address">Москва, ул  Шарикоподшипниковская д.4 к.4а
+            </div>
+            <div class="map__block_email">info@krepair.ru</div>
+            <a href="tel:+74992262928" class="map__block_phone">+7 499 226 29 28</a>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#" class="footer__logo">
+                    <img src="./icons/logo_krepair_mini.png" alt="Логотип компании">
+                </a>
+                
+                <ul class="footer__list">
+                    <li class="footer__link"><a href="#">Прайс-лист</a></li>
+                    <li class="footer__link"><a href="#">О компании</a></li>
+                    <li class="footer__link"><a href="#">Контакты</a></li>
+                    <li class="footer__link"><a href="#">Услуги</a></li>
+                    <li class="footer__link"><a href="#">Ремонт аудио техники</a></li>
+                    <li class="footer__link"><a href="#">Ремонт видео техники</a></li>
+                    <li class="footer__link"><a href="#">Ремонт телефонов</a></li>
+                    <li class="footer__link"><a href="#">Ремонт электротранспорта</a></li>
+                    <li class="footer__link"><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+                
+            </div>
+            
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./index.js" defer></script>
 </body>
 </html>
