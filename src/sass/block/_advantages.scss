@@ -1,0 +1,33 @@
+.advantages {
+   padding: 120px 0; 
+   background: #F7F5F5;
+   &__heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .descr {
+            width: 520px;
+        }
+    }
+    &__wrapper {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 499px;
+        grid-auto-rows: 499px;
+        column-gap: 30px;
+    }
+    &__item {
+        padding: 35px 34px 35px 30px;
+        border-radius: 20px;
+        &_grey {
+            background: #C4C4C4;
+        }
+        &_black {
+            background: #525252;
+        }
+        &_red {
+            background: #D5636B;
+        }
+    }
+}

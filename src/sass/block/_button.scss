@@ -1,0 +1,30 @@
+.btn {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    letter-spacing: -0.05em;
+    border-radius: 10px;
+
+    &_red {
+        background: $color_red;
+        border: none;
+        color: #FFFFFF;
+        &:hover {
+            background: #FFFFFF;
+            border: 2px solid $color_red;
+            color: $color_red;
+        }
+    }
+    &_white {
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        color: #000000;
+        &:hover {
+            background: #000000;
+            border: 2px solid #000000;
+            color: #F7F5F5;
+        }
+    }
+    
+}

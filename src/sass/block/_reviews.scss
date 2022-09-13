@@ -1,0 +1,72 @@
+.reviews {
+    padding-bottom: 80px;
+    &__block {
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 367px;
+        height: 258px;
+        padding: 23px 22px 30px 30px;
+        background: #F7F5F5;
+        border-radius: 15px;
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 175%;
+        letter-spacing: -0.05em;
+        color: #000000;
+        margin-right: 48px;
+    }
+    &__data {
+        font-weight: 400;
+        font-size: 16px;
+        // line-height: 175%;
+        letter-spacing: -0.05em;
+        text-decoration-line: underline;
+        color: #6F7375;
+        margin-right: 3px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: -0.05em;
+        color: #000000;
+    }
+    &__more {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 13px;
+        &_link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 175%;
+            letter-spacing: -0.05em;
+            text-decoration-line: underline;
+            color: #6F7375;
+            
+        }
+    }
+    &__rating {
+        display: flex;
+        align-items: center;
+        
+    }
+    &__star {
+        width: 22px;
+        height: 22px;
+        background: url('../icons/stars/star.png') center center/cover no-repeat;
+        &_active {
+            background: url('../icons/stars/star_gold.png') center center/cover no-repeat;
+        }
+    }
+}

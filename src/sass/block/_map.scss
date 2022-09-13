@@ -1,0 +1,41 @@
+.map {
+    position: relative;
+    iframe {
+        width: 100%;
+        height: 669px;
+    }
+    &__block {
+        position: absolute;
+        top: 120px;
+        left: 379px;
+        width: 463px;
+        height: 323px;
+        background: #525252;
+        border-radius: 15px;
+        padding: 50px 54px;
+        &_address {
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: -0.05em;
+            color: #EFEFEF;
+            margin-top: 33px;
+        }
+        &_email {
+            margin-top: 25px;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: -0.05em;
+            color: #EFEFEF;
+        }
+        &_phone {
+            display: block;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: -0.05em;
+            color: #DEDCDC;
+            text-decoration: none;
+            margin-top: 25px;
+
+        }
+    }
+}
